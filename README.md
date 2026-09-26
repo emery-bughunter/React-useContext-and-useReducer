@@ -46,21 +46,22 @@ Button: #85D1B0
 
 # **Guided Learning Activity Steps**
 
-## **Part 1: Project Setup with Vite**
-1. **Open GitHub Codespaces or Clone Locally**
-2. **Create the React Project**
+## **Part 1: Running the Project Locally**
+1. **Clone the Repository** (if you haven't already):
    ```bash
-   npm create vite@latest react-state-management -- --template react-ts
+   git clone <your-repo-url>
+   cd React-useContext-and-useReducer
    ```
-3. **Navigate to the Project Directory**
+2. **Navigate to the React Project Directory**
+   > ⚠️ **Important:** `package.json` lives inside the `react-state-management/` folder, **not** at the repository root. You must `cd` into it first to avoid `ENOENT` errors!
    ```bash
    cd react-state-management
    ```
-4. **Install Dependencies**
+3. **Install Dependencies**
    ```bash
    npm install
    ```
-5. **Start the Development Server**
+4. **Start the Development Server**
    ```bash
    npm run dev
    ```
