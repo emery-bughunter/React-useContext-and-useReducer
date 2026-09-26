@@ -2,7 +2,7 @@
   padding: 20px;
   border-radius: 8px;
   max-width: 400px;
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
   transition: background 0.3s, color 0.3s;
 }
@@ -12,9 +12,33 @@
   color: #000000;
 }
 
+.light h2 {
+  color: #000000;
+}
+
+.light input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
 .dark {
   background-color: #242629;
   color: #ffffff;
+}
+
+.dark h2 {
+  color: #ffffff;
+}
+
+.dark input {
+  background-color: #1a1b1e;
+  color: #ffffff;
+  border: 1px solid #444;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
 button {
